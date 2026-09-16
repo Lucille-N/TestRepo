@@ -1,0 +1,14 @@
+[project]
+name = "marky"
+version = "0.1.0"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build meta"
+
+[tool.setuptools]
+py-modules = ["calculator"]
+
+git add requirements.txt pyproject.toml .gitignore
+git commit -m "Add build configuration"
+git push
